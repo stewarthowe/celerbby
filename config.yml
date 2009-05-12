@@ -1,0 +1,13 @@
+environment: production
+chdir: /home/stewart/public_html/ruby.celermedia.com/private/celerbby
+pid: /home/stewart/public_html/ruby.celermedia.com/tmp/pids/thin.pid
+rackup: /home/stewart/public_html/ruby.celermedia.com/private/celerbby/config.ru
+log: /home/stewart/public_html/ruby.celermedia.com/logs/thin.log
+address: 127.0.0.1
+port: 4567
+user: root
+group: root
+timeout: 30
+max_conns: 1024
+max_persistent_conns: 512
+daemonize: true

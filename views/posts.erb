@@ -1,0 +1,9 @@
+<div id="postContainer">
+<% for post in @posts %>
+ <div class='posts'>
+   <p><%= post.subject %></p>
+   <p><%= post.message %></p>
+   <p>Posted on <%= post.created.strftime("%B %d, %Y at %I:%M %p") %></p>
+ </div>
+<% end %>
+</div>
