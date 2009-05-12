@@ -1,4 +1,4 @@
-DataMapper::setup(:default, 'mysql://root:B68v69er@localhost/celerbby')
+DataMapper::setup(:default, 'mysql://root:----@localhost/celerbby')
 
 class Post
   include DataMapper::Resource
